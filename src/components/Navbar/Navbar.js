@@ -16,7 +16,7 @@ class Navbar extends Component {
   }
 
   componentDidUpdate() {
-    let { scroll, top, height } = this.state;
+    let { scroll, top } = this.state;
     scroll > top ? document.body.style.paddingTop = 0
       : document.body.style.paddingTop = 0;
   }
