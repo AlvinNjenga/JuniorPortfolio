@@ -1,0 +1,14 @@
+#about {
+  height: 150vh;
+  width: 100%;
+  background: white;
+}
+
+.fixed-nav {
+  position: fixed;
+  top:0;
+}
+
+.about-content {
+  padding-top: 50px;
+}

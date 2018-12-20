@@ -1,0 +1,45 @@
+nav {
+  width: 100%;
+  margin: 0;
+  padding: 0!important;
+  top:0;
+}
+
+.fixed-nav {
+  position: fixed;
+  top: 0!important;
+}
+
+.navbar {
+  color: white;
+  font-size: 1.1rem;
+  display: flex;
+  border-top: 2px solid white;
+  border-bottom: 2px solid rgb(62, 147, 175);;
+  position: absolute;
+  top: 100%;
+  background: #1b1d25;
+}
+
+.navbar ul {
+  display: inline-flex;
+  margin-bottom: 0;
+  justify-content: space-between;
+  list-style: none;
+  margin: 5px 0 5px 5%;
+}
+
+.navbar ul li {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+.navbar ul a {
+  color: white;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+
+.navbar ul a:hover {
+  text-decoration: none;
+  color: rgb(209, 53, 53);
+}
