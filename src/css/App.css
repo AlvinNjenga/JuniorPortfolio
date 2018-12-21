@@ -1,3 +1,7 @@
+html, body {
+  font-family: 'Raleway', sans-serif!important;
+}
+
 h1 {
   padding: 0;
   margin: 0;
@@ -33,24 +37,25 @@ canvas {
 
 .home-text {
   position:  absolute;
-  margin: 240px 30% 0 30%;
-  min-width: 550px;
+  margin: 240px 26% 0 26%;
+  min-width: 650px;
   z-index: -1;
   color: #fff;
 }
 
 .home-text h1 {
   margin-top: 5px;
+  font-size: 3rem;
 }
 
 .homebutton {
   position:  absolute;
-  margin: 400px 43% 0 43%;
+  margin: 400px 42.5% 0 42.5%;
   border: 2px solid white;
   font-size: 1.5rem;
   transition: all 0.2s;
-  background: black;
-  min-width: 190px
+  background: #1b1d25;
+  min-width: 210px
 }
 
 .homebutton:hover {

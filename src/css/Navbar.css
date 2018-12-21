@@ -14,8 +14,8 @@ nav {
   color: white;
   font-size: 1.1rem;
   display: flex;
-  border-top: 2px solid white;
-  border-bottom: 2px solid rgb(62, 147, 175);;
+  border-top: 2px solid rgb(62, 147, 175);
+  border-bottom: 2px solid rgb(62, 147, 175);
   position: absolute;
   top: 100%;
   background: #1b1d25;

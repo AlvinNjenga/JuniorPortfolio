@@ -1,14 +1,23 @@
 #about {
-  height: 150vh;
+  height: 100%;
   width: 100%;
   background: white;
+  padding-top: 50px;
 }
 
 .fixed-nav {
   position: fixed;
   top:0;
+  z-index: 999;
 }
 
-.about-content {
-  padding-top: 50px;
+.title-wrapper {
+  margin: 80px 0 30px 0;
+}
+
+.title-underline {
+  height: 4px;
+  width: 100px;
+  background-color: black;
+  margin: 10px auto 40px auto;
 }
