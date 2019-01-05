@@ -1,0 +1,93 @@
+#contact {
+    background-color: #252934;
+}
+
+.white {
+    background-color: white;
+}
+
+.contact-title {
+    color: white;
+    margin: 7.5% 0 0 0;
+}
+
+.contact-text {
+    color: rgb(62, 147, 175);
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    min-width: 500px;
+    width: 50%;
+    margin: 1rem auto 3rem auto;
+}
+
+.contact-form input {
+    background: rgb(23, 28, 34);
+    padding: 0.5rem;
+    color: white;
+    border: none;
+    border-bottom: 2px solid rgb(62, 147, 175)
+}
+
+.contact-form textarea {
+    background: rgb(23, 28, 34);
+    padding: 0.5rem;
+    color: white;
+    border: none;
+    border-bottom: 2px solid rgb(62, 147, 175);
+    height: 30vh;
+}
+
+#submit {
+    width: 20%;
+    margin-top: 10px;
+    margin-left: auto;
+    border: 2px solid white;
+}
+
+/* Footer stuff! */
+
+.footer-col {
+    height: 15vh;
+    background: #1b1d25;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-icon {
+    height: 50px;
+    width: 50px;
+    background: black;
+    margin: 0 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(62, 147, 175);
+    transition: all 0.3s;
+}
+
+.social-icon:hover {
+    background: rgb(62, 147, 175);
+    color: white;
+    cursor: pointer;
+}
+
+.footer-text {
+    background: #1b1d25;
+    color: grey;
+}
+
+.copyright {
+    color: rgb(62, 147, 175);
+}
+
+.footer-text p {
+    margin-top: -10px;
+}
+
+

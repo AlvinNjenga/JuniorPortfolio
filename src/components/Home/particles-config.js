@@ -70,7 +70,7 @@ const params = {
       },
       onclick: {
         enable: true,
-        mode: 'repulse',
+        mode: 'bubble',
       },
       resize: true,
     },
@@ -83,8 +83,8 @@ const params = {
       },
       bubble: {
         distance: 400,
-        size: 40,
-        duration: 2,
+        size: 20,
+        duration: 1,
         opacity: 8,
         speed: 3,
       },

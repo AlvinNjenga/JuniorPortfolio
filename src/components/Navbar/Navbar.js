@@ -27,13 +27,13 @@ class Navbar extends Component {
 
   render() {
     return (
-      <nav className={this.state.scroll > this.state.top ? 'fixed-nav navbar' : 'navbar'}>
+      <nav className="sticky navbar">
         <ul>
           <a href="/"><li>HOME</li></a>
           <a href="/"><li>ABOUT</li></a>
           <a href="/"><li>WORK</li></a>
           <a href="/"><li>CONTACT</li></a>
-          <a href="/"><li>MISC</li></a>
+          {/*<a href="/"><li>MISC</li></a>*/}
         </ul>
       </nav>
     );
